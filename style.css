@@ -19,8 +19,8 @@ body {
 }
 
 .sidebar {
-    background-color: #ffbc3e;
-    color: white;
+    background-color: #ffa53e;
+    color: rgb(255, 255, 255);
     grid-column: 1;
     grid-row: 1 / 3;
     padding: 15px;
@@ -48,12 +48,35 @@ body {
     background-color: #fff;
     grid-column: 2 / 3;
     grid-row: 1;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.search {
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+    align-items: center;
+    padding: 0 40px 0 40px;
+}
+
+.search-icon {
+    justify-self: center;
+}
+
+#search-bar {
+    outline: none;
+    background-color: #ffedd7;
+    border: none;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 10px;
+    grid-column: 2;
 }
 
 
 
 .main {
-    background-color: #ecd2a4;
+    background-color: #eccaa4;
     grid-column: 2;
     grid-row: 2 / 3;
 }
