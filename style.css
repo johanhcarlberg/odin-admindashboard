@@ -65,7 +65,7 @@ body {
 
 #search-bar {
     outline: none;
-    background-color: #ffedd7;
+    background-color: #f7e3c9;
     border: none;
     font-size: 14px;
     padding: 4px;
@@ -73,10 +73,38 @@ body {
     grid-column: 2;
 }
 
+.profile {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
 
+.profile .profile-name {
+    font-weight: bold;
+    font-size: 15px;
+    justify-self: start;
+}
+
+.profile-image {
+    outline: none;
+    border-radius: 50%;
+    background: #f7e3c9;
+    height: 3.5em;
+    width: 3.5em;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.profile .notification-icon {
+    justify-self: end;
+}
 
 .main {
-    background-color: #eccaa4;
+    background-color: #f7e3c9;
     grid-column: 2;
     grid-row: 2 / 3;
 }
+
