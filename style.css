@@ -155,5 +155,42 @@ body {
     background-color: #f7e3c9;
     grid-column: 2;
     grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    padding-top: 25px;
+    padding-right: 30px;
+}
+
+.main-side {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+}
+
+.announcements, .trending {
+    background-color: #fff;
+    display: grid;
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.announcements h3, .trending h3 {
+    font-size: 14px;
+}
+
+.announcement {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 4px;
+}
+
+.announcement:last-child {
+    border-bottom: none;
+}
+
+.main-side h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
