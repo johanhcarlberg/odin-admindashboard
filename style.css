@@ -51,17 +51,15 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding-left: 40px;
+    padding-bottom: 15px;
 }
 .search {
     display: grid;
     grid-template-columns: 1fr 12fr;
     align-items: center;
-    padding: 0 40px 0 40px;
 }
 
-.search-icon {
-    justify-self: center;
-}
 
 #search-bar {
     outline: none;
@@ -100,6 +98,34 @@ body {
 
 .profile .notification-icon {
     justify-self: end;
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    align-items: center;
+}
+
+.welcome .profile-name-large {
+    justify-self: start;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.welcome .greeting {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile-image-large {
+    outline: none;
+    border-radius: 50%;
+    background: #f7e3c9;
+    height: 4.5em;
+    width: 4.5em;
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
 
 .main {
