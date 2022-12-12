@@ -206,6 +206,7 @@ body, html {
     display: grid;
     grid-template-rows: 2fr 1fr;
     border-left: 6px solid #ffba60;
+    box-shadow: 0 3px 3px #ddccb3;
 }
 
 .project-card p {
@@ -248,6 +249,7 @@ body, html {
 .announcements {
     padding: 0 20px;
     padding: 15px 20px;
+    
 }
 
 .announcements, .trending {
@@ -256,6 +258,7 @@ body, html {
     font-size: 13px;
     border-radius: 10px;
     margin-top: 10px;
+    box-shadow: 0 3px 3px #ddccb3;
 }
 
 .announcements h3, .trending h3 {
