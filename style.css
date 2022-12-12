@@ -167,6 +167,11 @@ body {
     gap: 25px;
 }
 
+.main-side h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
 .announcements, .trending {
     background-color: #fff;
     display: grid;
@@ -189,8 +194,6 @@ body {
     border-bottom: none;
 }
 
-.main-side h2 {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
+
+
 
