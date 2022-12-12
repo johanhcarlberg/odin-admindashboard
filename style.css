@@ -242,10 +242,14 @@ body, html {
     padding: 0;
 }
 
+.announcements {
+    padding: 0 20px;
+    padding: 15px 20px;
+}
+
 .announcements, .trending {
     background-color: #fff;
     display: grid;
-    padding: 0 20px;
     font-size: 13px;
     border-radius: 10px;
     margin-top: 10px;
@@ -259,7 +263,7 @@ body, html {
 
 .announcement {
     border-bottom: 1px solid #ccc;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .announcement:last-child {
@@ -270,7 +274,7 @@ body, html {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     gap: 20px;
-    padding: 15px 10px;
+    padding: 15px 20px;
 }
 
 .trending-project {
