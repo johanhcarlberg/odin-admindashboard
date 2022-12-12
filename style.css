@@ -94,10 +94,10 @@ body, html {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding-left: 40px;
-    padding-bottom: 8px;
     box-shadow: 0 3px 3px #ddccb3;
     z-index: 100;
+
+    padding: 8px 0 12px 40px;
 }
 .search {
     display: grid;
@@ -115,8 +115,8 @@ body, html {
     outline: none;
     background-color: #f7e3c9;
     border: none;
-    font-size: 14px;
-    padding: 4px;
+    font-size: 13px;
+    padding: 6px;
     border-radius: 10px;
     grid-column: 2;
 }
@@ -139,8 +139,8 @@ body, html {
     outline: none;
     border-radius: 50%;
     background: #f7e3c9;
-    height: 3.5em;
-    width: 3.5em;
+    height: 3em;
+    width: 3em;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -181,8 +181,8 @@ body, html {
     outline: none;
     border-radius: 50%;
     background: #f7e3c9;
-    height: 4.5em;
-    width: 4.5em;
+    height: 4em;
+    width: 4em;
     display: grid;
     align-items: center;
     justify-items: center;
