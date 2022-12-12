@@ -46,23 +46,46 @@ body, html {
     margin: 0;
 }
 
-.sidebar .main-actions, .user-actions {
+.main-actions, .user-actions {
     display: grid;
     gap: 10px;
     font-weight: bold;
 }
 
-.sidebar .user-actions {
-    margin-top: 2rem;
-}
-
-.main-actions li, .user-actions li {
+.action {
     display: grid;
     grid-template-columns: 1fr 9fr;
     gap: 15px;
     align-items: center;
     color: #fff;
 }
+
+.action a{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+    color: #fff;
+}
+
+.action a:hover {
+    color: rgb(58, 58, 58);
+}
+
+.main-actions a, .user-actions a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.main-actions a:hover, .user-actions a:hover {
+    color: rgb(58, 58, 58);
+}
+
+.user-actions {
+    margin-top: 2rem;
+}
+
+
 
 .header {
     background-color: #fff;
