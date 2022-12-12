@@ -8,13 +8,11 @@ body, html {
     padding: 0;
 }
 
-
-
 .grid-container {
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
 }
 
@@ -23,16 +21,25 @@ body, html {
     color: rgb(255, 255, 255);
     grid-column: 1;
     grid-row: 1 / 3;
-    padding: 15px;
+    padding: 15px 30px;
     z-index: 200;
 }
 
 .sidebar ul {
     list-style: none;
+    padding: 0;
 }
 
 .sidebar .logo {
     margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo svg {
+    justify-self: end;
 }
 
 .logo h2 {
@@ -43,7 +50,6 @@ body, html {
     display: grid;
     gap: 10px;
     font-weight: bold;
-
 }
 
 .sidebar .user-actions {
