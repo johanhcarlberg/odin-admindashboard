@@ -194,6 +194,27 @@ body {
     border-bottom: none;
 }
 
+.trending {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+}
 
+.trending-project {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+}
 
+.user-project {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    font-size: 13px;
+}
+
+.user-project .user {
+    font-weight: bold;
+}
 
