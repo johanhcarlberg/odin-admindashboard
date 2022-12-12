@@ -34,14 +34,27 @@ body, html {
     margin-bottom: 3rem;
 }
 
+.logo h2 {
+    margin: 0;
+}
+
 .sidebar .main-actions, .user-actions {
     display: grid;
     gap: 10px;
     font-weight: bold;
+
 }
 
 .sidebar .user-actions {
     margin-top: 2rem;
+}
+
+.main-actions li, .user-actions li {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    gap: 15px;
+    align-items: center;
+    color: #fff;
 }
 
 .header {
@@ -58,8 +71,13 @@ body, html {
     display: grid;
     grid-template-columns: 1fr 12fr;
     align-items: center;
+    gap: 10px;
 }
 
+.search svg {
+    justify-self: end;
+    cursor: pointer;
+}
 
 #search-bar {
     outline: none;
@@ -98,6 +116,7 @@ body, html {
 
 .profile .notification-icon {
     justify-self: end;
+    cursor: pointer;
 }
 
 .welcome {
@@ -183,6 +202,7 @@ body, html {
     padding: 30px 20px 30px 20px;
     display: grid;
     grid-template-rows: 2fr 1fr;
+    border-left: 6px solid #ffba60;
 }
 
 .project-card p {
@@ -194,6 +214,19 @@ body, html {
     font-size: 15px;
     margin: 0;
     padding: 0;
+}
+
+.project-card-icons {
+    margin-top: 25px;
+    justify-self: end;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+
+.project-card-icon {
+    cursor: pointer;
 }
 
 .main-right {
