@@ -118,6 +118,7 @@ body, html {
 .search svg {
     justify-self: end;
     cursor: pointer;
+    color: #333;
 }
 
 #search-bar {
@@ -161,7 +162,11 @@ body, html {
 
 .profile .notification-icon {
     justify-self: end;
-    cursor: pointer;
+    color: #333;
+}
+
+.profile .notification-icon:hover {
+    color: #ffba60;
 }
 
 .welcome {
@@ -271,8 +276,13 @@ body, html {
     gap: 20px;
 }
 
-.project-card-icon {
-    cursor: pointer;
+.project-card-icons a {
+    color: #333;
+    text-decoration: none;
+}
+
+.project-card-icons a:hover {
+    color: #ffba60;
 }
 
 .main-right {
