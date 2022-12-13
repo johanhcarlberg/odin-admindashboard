@@ -3,6 +3,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    --main-color: #fb923c;
+    --secondary-color: #ffedd5;
+    --hover-color: #fdba74;
+    --font-color-dark: #333;
+    --font-color-light: #FAF9F6;
+    color: var(--font-color-dark);
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -17,8 +26,8 @@ body, html {
 }
 
 .sidebar {
-    background-color: #ffa53e;
-    color: rgb(255, 255, 255);
+    background-color: var(--main-color);
+    color: var(--font-color-light);
     grid-column: 1;
     grid-row: 1 / 3;
     padding: 15px 30px;
@@ -32,11 +41,11 @@ body, html {
 
 .sidebar a {
     text-decoration: none;
-    color: #FFF;
+    color: var(--font-color-light);
 }
 
 .sidebar a:hover {
-    color: #3a3a3a;
+    color: var(--font-color-dark);
 }
 
 .sidebar .logo {
@@ -57,16 +66,13 @@ body, html {
 
 .main-actions, .user-actions {
     display: grid;
-    gap: 10px;
+    gap: 10px;   
     font-weight: bold;
 }
 
 .action {
     display: grid;
     grid-template-columns: 1fr 9fr;
-    gap: 15px;
-    align-items: center;
-    color: #fff;
 }
 
 .action a{
@@ -74,20 +80,19 @@ body, html {
     grid-template-columns: 1fr 1fr;
     gap: 15px;
     align-items: center;
-    color: #fff;
 }
 
 .action a:hover {
-    color: rgb(58, 58, 58);
+    color: var(--font-color-dark);
 }
 
 .main-actions a, .user-actions a {
-    color: #FFF;
+    color: var(--font-color-light);
     text-decoration: none;
 }
 
 .main-actions a:hover, .user-actions a:hover {
-    color: rgb(58, 58, 58);
+    color: var(--font-color-dark);
 }
 
 .user-actions {
@@ -118,12 +123,12 @@ body, html {
 .search svg {
     justify-self: end;
     cursor: pointer;
-    color: #333;
+    color: var(--font-color-dark);
 }
 
 #search-bar {
     outline: none;
-    background-color: #f7e3c9;
+    background-color: var(--secondary-color);
     border: none;
     font-size: 13px;
     padding: 6px;
@@ -132,7 +137,7 @@ body, html {
 }
 
 #search-bar:focus {
-    border: 1px solid #ffba60;
+    border: 1px solid var(--main-color);
 }
 
 .profile {
@@ -162,11 +167,11 @@ body, html {
 
 .profile .notification-icon {
     justify-self: end;
-    color: #333;
+    color: var(--font-color-dark);
 }
 
 .profile .notification-icon:hover {
-    color: #ffba60;
+    color: var(--hover-color);
 }
 
 .welcome {
@@ -219,18 +224,18 @@ body, html {
     border: none;
     padding: 10px 40px;
     border-radius: 20px;
-    background-color: #ffa53e;
-    color: #fff;
+    background-color: var(--main-color);
+    color: var(--font-color-light);
     font-weight: 700;
     cursor: pointer;
 }
 
 .action-button:hover {
-    background-color: #ffba60;
+    background-color: var(--hover-color);
 }
 
 .main {
-    background-color: #f7e3c9;
+    background-color: var(--secondary-color);
     grid-column: 2;
     grid-row: 2 / 3;
     display: grid;
@@ -252,7 +257,7 @@ body, html {
     padding: 30px 20px 30px 20px;
     display: grid;
     grid-template-rows: 2fr 1fr;
-    border-left: 6px solid #ffba60;
+    border-left: 6px solid var(--main-color);
     box-shadow: 0 3px 3px #ddccb3;
 }
 
@@ -277,12 +282,12 @@ body, html {
 }
 
 .project-card-icons a {
-    color: #333;
+    color: var(--font-color-dark);
     text-decoration: none;
 }
 
 .project-card-icons a:hover {
-    color: #ffba60;
+    color: var(--hover-color);
 }
 
 .main-right {
