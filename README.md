@@ -7,8 +7,8 @@ The focus of the project is primarily to practice using CSS-grid to produce a da
 
 Icons from [Material Design Icons](https://materialdesignicons.com/)
 
-Avatars from [Pixabay](https://pixabay.com/):
-Dog image by [Piyapong Saydaung](https://pixabay.com/users/saydung89-18713596/)
-Avocado image by [The_Shire_Hobbit](https://pixabay.com/users/the_shire_hobbit-21148986/)
-Fish image by [The_Shire_Hobbit](https://pixabay.com/users/the_shire_hobbit-21148986/)
+Avatars from [Pixabay](https://pixabay.com/):  
+Dog image by [Piyapong Saydaung](https://pixabay.com/users/saydung89-18713596/)  
+Avocado image by [The_Shire_Hobbit](https://pixabay.com/users/the_shire_hobbit-21148986/)  
+Fish image by [The_Shire_Hobbit](https://pixabay.com/users/the_shire_hobbit-21148986/)  
 Watermelon image by [jambulboy](https://pixabay.com/users/jambulboy-4860762/)
