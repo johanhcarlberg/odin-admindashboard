@@ -3,7 +3,7 @@ This project is part of the Intermediate HTML and CSS course on [The Odin Projec
 
 The focus of the project is primarily to practice using CSS-grid to produce a dashboard design. 
 
-[Preview](https://jshc.github.io/odin-admindashboard/) on GitHub Pages
+[Preview](https://johanhcarlberg.github.io/odin-admindashboard/) on GitHub Pages
 
 Icons from [Material Design Icons](https://materialdesignicons.com/)
 
